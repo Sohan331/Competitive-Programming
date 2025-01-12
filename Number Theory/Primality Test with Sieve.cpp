@@ -11,7 +11,7 @@ int main()
 {
    vector<int> prime;
 
-    // sieve;
+    
    for(int i = 2; i * i<= N ; i++){
     if(mark[i] == false){
         prime.push_back(i);
@@ -20,7 +20,7 @@ int main()
        }
     }
    }
-    //sieve
+    
 
    int t; cin >> t;
    while(t--){
