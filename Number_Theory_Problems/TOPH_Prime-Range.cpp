@@ -17,6 +17,10 @@ using namespace std;
 #define in insert
 const ll M = 1e9 + 7;
 const int N = 1e8;
+void precomp();
+vector<ll>pc(N+1,1);
+ll gcd(ll a,ll b);
+ll lcm(ll a,ll b);
 vector<bool> mark(N + 1, false);
 vector<ll> prime;
 
@@ -97,3 +101,38 @@ int main()
 /////////////////////////////////////////////FUNCTIONS//////////////////////////////////////////////////////////////
 
 
+
+void precomp()
+{
+    ll cnt=0;
+    for (ll i=2; i<=N; i++)
+    {
+        if(!mark[i])
+        {
+            for(ll j=i ; j<=N; j+=i)
+            {
+                ll temp=j;
+                cnt=0;
+                while(temp%i==0)
+                {
+                    cnt++;
+                    temp/=i;
+
+                }
+                pc[j]*=cnt+1;
+            }
+
+        }
+    }
+}
+
+
+ll lcm(ll a, ll b)
+{
+    return (a*b / gcd(a, b)) ;
+}
+ll gcd(ll a, ll b)
+{
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
