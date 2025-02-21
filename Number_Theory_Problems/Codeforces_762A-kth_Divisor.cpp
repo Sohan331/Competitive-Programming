@@ -58,14 +58,6 @@ void sieve()
     }
 }
 
-
-
-
-
-
-
-
-
 void solve()
 {
     ll n,m;
