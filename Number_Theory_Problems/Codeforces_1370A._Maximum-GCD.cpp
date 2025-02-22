@@ -6,7 +6,6 @@ using namespace std;
 #define yes cout << "YES" << "\n"
 #define no cout << "NO" << "\n"
 
-
 int main()
 {
     fast();
