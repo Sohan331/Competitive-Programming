@@ -1,0 +1,1 @@
+{"name":"Local: set_stl","url":"d:\\GitHub\\Competitive Programming\\STL\\set_stl.cpp","tests":[{"id":1741285410621,"input":"8\n1 9\n1 6\n1 10\n1 4\n3 6\n3 14\n2 6\n3 6","output":"Yes\nNo\nNo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\Competitive Programming\\STL\\set_stl.cpp","group":"local","local":true}
