@@ -1,5 +1,5 @@
 //Bismillahir Rahmanir Rahim
-//Starting with the name of Almighty God Allah
+//Starting with the name of Almighty Allah
 #include <bits/stdc++.h>
 #define pb push_back
 #define ll long long
