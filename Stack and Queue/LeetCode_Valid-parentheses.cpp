@@ -34,22 +34,18 @@ bool isValid(string s)
 
             if(br.top()=='(' && s[i]==')')
             {
-                //cout<<"S of i and br top"<<s[i]<<" "<<br.top()<<nl;
-               // cnt++;
+                
                 br.pop();
 
             }
             else if(br.top()=='{' && s[i]=='}')
             {
-                //cout<<"S of i and br top"<<s[i]<<" "<<br.top()<<nl;
-               // cnt++;
+               
                 br.pop();
             }
             else if(br.top()=='[' && s[i]==']')
             {
-                //cnt++;
-
-                //cout<<"S of i and br top"<<s[i]<<" "<<br.top()<<nl;
+                
                 br.pop();
 
             }
@@ -71,12 +67,7 @@ int32_t main()
 
     string s;
     getline(cin,s);
-//    int tc;
-//    cin>>tc;
-//    while(tc--)
-//    {
-//        solve();
-//    }
+
     cout<<isValid(s)<<nl;
 
     return 0;
