@@ -13,9 +13,6 @@ vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2)
     stack<int> st;
     vector<int> res(n, -1);
 
-
-
-
     auto mx=max_element(nums2.begin(),nums2.end());
     int bk=nums2.back();
     //cout<<"***"<<*mx<<" "<<bk<<endl;
