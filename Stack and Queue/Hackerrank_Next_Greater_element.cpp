@@ -48,7 +48,7 @@ void solve()
 
 int32_t main()
 {
-    //fast();
+    fast();
 
     solve();
     return 0;
