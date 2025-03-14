@@ -3,7 +3,7 @@
 
 //The time complexity of this code is O(n*m) where n is the size of nums1 and m is the size of nums2
 //The space complexity of this code is O(n) where n is the size of nums1
-//Another solution of this problem is in Stack and Queue folder named LeetCode_Next_Greater_element.cpp where the time complexity is O(n) and space complexity is O(n)
+
 #include <bits/stdc++.h>
 #define ll long long
 #define fast() ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);

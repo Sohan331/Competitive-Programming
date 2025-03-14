@@ -42,11 +42,11 @@ for (int i = 0; i < nums1.size(); i++) {
         ans.push_back(res[idx]);
     }
 
-for(int i=0; i<ans.size(); i++)
-{
-  cout<<ans[i]<<" ";
+// for(int i=0; i<ans.size(); i++)
+// {
+//   cout<<ans[i]<<" ";
 
-}
+// }
 
 return ans;
 }
