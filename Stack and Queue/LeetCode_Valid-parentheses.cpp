@@ -68,7 +68,13 @@ int32_t main()
     string s;
     getline(cin,s);
 
-    cout<<isValid(s)<<nl;
+   int num= isValid(s);
+if(num==1){
+    cout<<"YES"<<nl;    
+}
+else{
+    cout<<"NO"<<nl;
+}
 
     return 0;
 }

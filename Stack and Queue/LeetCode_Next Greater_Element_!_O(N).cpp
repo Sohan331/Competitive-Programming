@@ -1,6 +1,5 @@
 //Bismillahir Rahmanir Rahim
 //Starting with the name of Almighty Allah
-
 //This code beats 100% of C++ submissions on LeetCode and Time complexity is O(N) and runtime is 0ms
 #include <bits/stdc++.h>
 #define ll long long
